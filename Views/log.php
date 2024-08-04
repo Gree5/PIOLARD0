@@ -33,9 +33,6 @@
           <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
             <ul class="ms-auto navbar-nav me-4 mb-2 mb-lg-0">
               <li class="nav-item mx-3">
-                <a class="nav-link color01 fs-2" href="#">Registro</a>
-              </li>
-              <li class="nav-item mx-3">
                 <a class="nav-link color01 fs-2" href="#">Iniciar Sesión</a>
               </li>
             </ul>

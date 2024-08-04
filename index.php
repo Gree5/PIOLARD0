@@ -31,7 +31,7 @@ include 'Views\log.php';  // Includes header content
    <div class="d-flex">
    <div class="d-flex w-100 color01 my-5" style="justify-content: center;">
       <div class="mx-5" style="font-size: 30px;">
-         seguridad
+         Seguridad
       </div>
       <div style="font-size: 30px;" class="mx-5">
          Somos una empresa que prioriza la seguridad de sus clientes en cada uno de nuestros viajes
