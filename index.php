@@ -22,6 +22,7 @@ include 'Views\log.php';  // Includes header content
                </div>
                <div class="col-12 m-3">
                   <button class="btn bg_web01" type="button" >Ingresar</button>
+                  <a href="http://Views\taxi.php">Ingresar</a>
                </div>
             </div>
          </form>
