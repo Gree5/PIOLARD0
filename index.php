@@ -43,4 +43,3 @@ include 'Views\log.php';  // Includes header content
 <?php
 include 'Views\footer.php';
 ?>
-   
