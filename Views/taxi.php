@@ -23,7 +23,7 @@
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <div class="mx-3">
-            <img src="assets\img\logo.jpg" alt="" style="height:100px">
+            <img src="assets\img\logo01.png" alt="" style="height:100px">
           </div>         
           <div class=""style="font-size: 50px; font-weight: bold; align-content: center; color: #e1a636;">
             PIOLARDO
