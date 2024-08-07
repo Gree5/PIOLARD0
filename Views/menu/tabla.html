@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reportes de Empleados por Mes - PIOLARDO</title>
+    <style>
+        body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                background-image: url('https://static.wixstatic.com/media/cadab9_d49a09a2afd04eecac6cc21598aa6805~mv2.jpeg/v1/fill/w_640,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/cadab9_d49a09a2afd04eecac6cc21598aa6805~mv2.jpeg');
+                background-size: cover;
+                background-position: center;
+                position: relative;
+                z-index: -1;
+            }
+        .container {
+            width: 90%;
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow-x: auto;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #e1a636;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #dfa528be; /* Color personalizado */
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            background-color: #e1a636;
+            color: white;
+            cursor: pointer;
+            font-size: 16px;
+            display: block;
+            margin: 0 auto;
+        }
+        button:hover {
+            background-color: #ffdf00;
+        }
+        .taxi-img {
+            width: 50px; /* Ajusta el tamaño según sea necesario */
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Reportes de Empleados por Mes - PIOLARDO</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Empleado</th>
+                    <th>Enero</th>
+                    <th>Febrero</th>
+                    <th>Marzo</th>
+                    <th>Abril</th>
+                    <th>Mayo</th>
+                    <th>Junio</th>
+                    <th>Julio</th>
+                    <th>Agosto</th>
+                    <th>Septiembre</th>
+                    <th>Octubre</th>
+                    <th>Noviembre</th>
+                    <th>Diciembre</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="https://www.shutterstock.com/image-illustration/white-city-car-isolated-on-600nw-2350699241.jpg" alt="Taxi 1" class="taxi-img"> Juan Pérez</td>
+                    <td>80</td>
+                    <td>75</td>
+                    <td>88</td>
+                    <td>90</td>
+                    <td>85</td>
+                    <td>80</td>
+                    <td>82</td>
+                    <td>87</td>
+                    <td>90</td>
+                    <td>85</td>
+                    <td>80</td>
+                </tr>
+                <tr>
+                    <td><img src="https://w7.pngwing.com/pngs/246/655/png-transparent-2012-toyota-corolla-le-car-2012-toyota-corolla-s-certified-pre-owned-toyota-compact-car-sedan-car.png" alt="Taxi 2" class="taxi-img"> María Gómez</td>
+                    <td>85</td>
+                    <td>80</td>
+                    <td>90</td>
+                    <td>87</td>
+                    <td>82</td>
+                    <td>80</td>
+                    <td>85</td>
+                    <td>88</td>
+                    <td>92</td>
+                    <td>80</td>
+                    <td>85</td>
+                </tr>
+                <tr>
+                    <td><img src="https://e7.pngegg.com/pngimages/312/937/png-clipart-sports-car-luxury-vehicle-graphy-driving-luxury-sports-car-design-compact-car-car-accident.png" alt="Taxi 3" class="taxi-img"> Carlos Ruiz</td>
+                    <td>78</td>
+                    <td>85</td>
+                    <td>80</td>
+                    <td>88</td>
+                    <td>90</td>
+                    <td>82</td>
+                    <td>85</td>
+                    <td>80</td>
+                    <td>87</td>
+                    <td>90</td>
+                    <td>82</td>
+                </tr>
+                <tr>
+                    <td><img src="https://www.nicepng.com/png/detail/157-1579750_new-2019-bmw-i8-coupe-bmw-i8.png" alt="Taxi 4" class="taxi-img"> Lucía Fernández</td>
+                    <td>82</td>
+                    <td>87</td>
+                    <td>85</td>
+                    <td>90</td>
+                    <td>88</td>
+                    <td>80</td>
+                    <td>85</td>
+                    <td>82</td>
+                    <td>90</td>
+                    <td>85</td>
+                    <td>88</td>
+                </tr>
+                <tr>
+                    <td><img src="https://c0.klipartz.com/pngpicture/802/255/gratis-png-bob-cutlass-doc-hudson-cars-carrera-o-rama-rayo-mcqueen-coche-azul.png" alt="Taxi 5" class="taxi-img"> Pedro Sánchez</td>
+                    <td>80</td>
+                    <td>82</td>
+                    <td>87</td>
+                    <td>85</td>
+                    <td>90</td>
+                    <td>88</td>
+                    <td>82</td>
+                    <td>85</td>
+                    <td>80</td>
+                    <td>87</td>
+                    <td>90</td>
+                </tr>
+            </tbody>
+        </table>
+        <button onclick="window.location.href='/';">Volver al Inicio</button>
+    </div>
+</body>
+</html>
