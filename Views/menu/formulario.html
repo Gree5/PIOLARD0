@@ -1,0 +1,105 @@
+<div><!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registro de Usuario - PIOLARDO</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                background-image: url('https://img.asmedia.epimg.net/resizer/v2/FL4CAF5W2BEMTAA6UXVDRK3MGU.jpg?auth=cfd742d8d4a83ae652c261d1fbecfb88a7ac5abe239b238528581f7268aa2825&width=1472&height=828&smart=true');
+                background-size: cover;
+                background-position: center;
+                position: relative;
+                z-index: -1;
+            }
+            .overlay {
+                background-color: rgba(0, 0, 0, 0.6);
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: -1;
+            }
+            .container {
+                background-color: rgba(255, 255, 255, 0.9);
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                width: 100%;
+                max-width: 400px;
+                z-index: 1;
+                position: relative;
+            }
+            h2 {
+                text-align: center;
+                margin-bottom: 20px;
+                color: #e1a636;
+            }
+            label {
+                display: block;
+                margin-bottom: 5px;
+                color: #333;
+            }
+            input[type="text"],
+            input[type="email"],
+            input[type="tel"],
+            input[type="password"] {
+                width: 100%;
+                padding: 8px;
+                margin-bottom: 10px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+            }
+            button {
+                width: 100%;
+                padding: 10px;
+                border: none;
+                border-radius: 4px;
+                background-color: #e1a636;
+                color: #fff;
+                font-size: 16px;
+                cursor: pointer;
+            }
+            button:hover {
+                background-color: #ffdf00;
+            }
+            .cancel-button {
+                background-color: #dc3545;
+                margin-top: 10px;
+            }
+            .cancel-button:hover {
+                background-color: #c82333;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="overlay"></div>
+        <div class="container">
+            <h2>Registro de Usuario - PIOLARDO</h2>
+            <form action="register.php" method="post">
+                <label for="nombre">Nombre Completo:</label>
+                <input type="text" id="nombre" name="nombre" required>
+    
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="contrasena">Contraseña:</label>
+                <input type="password" id="contrasena" name="contrasena" required>
+    
+                <label for="telefono">Número de Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+    
+                <button type="submit">Registrar</button>
+                <button type="button" class="cancel-button" onclick="window.location.href='/';">Cancelar</button>
+            </form>
+        </div>
+    </body>
+    </html></div>
