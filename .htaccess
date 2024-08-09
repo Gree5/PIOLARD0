@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteBase /PIOLARD0/
+
+# Redirige todas las solicitudes a conf/router.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ conf/router.php?url=$1 [QSA,L]

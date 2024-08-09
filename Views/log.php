@@ -13,8 +13,12 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
      <!-- jquery v3.7.1 -->
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="assets\css\css.css">
   </head>
 
   <body>
@@ -30,9 +34,6 @@
           </div>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
             <ul class="ms-auto navbar-nav me-4 mb-2 mb-lg-0">
-              <li class="nav-item mx-3">
-                <a class="nav-link color01 fs-2" href="#">Registro</a>
-              </li>
               <li class="nav-item mx-3">
                 <a class="nav-link color01 fs-2" href="#">Iniciar Sesión</a>
               </li>

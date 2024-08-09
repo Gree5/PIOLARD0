@@ -1,23 +1,8 @@
 <?php
 // This is your main page file, e.g., index.php
-include 'Views\taxi.php';  // Includes header content
+include __DIR__ . '/../header.php';  // Includes header content
 ?>
-   <div class="d-flex">
-   <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Carrusel Bootstrap</title>
-  <!-- Bootstrap CSS -->
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
-  <style>
-    .carousel-caption h5,
-    .carousel-caption p {
-      color: black;
-    }
-  </style>
-</head>
+  
 <body>
 
 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -93,6 +78,5 @@ include 'Views\taxi.php';  // Includes header content
    </div>
 
 <?php
-include 'Views\footer.php';
+include __DIR__ . '/../footer.php';  // Includes header content
 ?>
-   
