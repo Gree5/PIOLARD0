@@ -28,34 +28,37 @@
           <div class=""style="font-size: 50px; font-weight: bold; align-content: center; color: #e1a636;">
             PIOLARDO
           </div>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-            <ul class="ms-auto navbar-nav me-4 mb-2 mb-lg-0">
-              <li class="nav-item mx-3">
-                <a class="nav-link color01 fs-2" href="#">Inicio</a>
-              </li>
-              <li class="nav-item mx-3">
-                <a class="nav-link color01 fs-2" href="#">Pedir Taxi</a>
-              </li>
-              <li class="nav-item mx-3">
-                <a class="nav-link color01 fs-2" href="#">Historial</a>
-              </li>
-              <li class="nav-item mx-3">
-                <a class="nav-link color01 fs-2" href="#">Nosotros</a>
-              </li>
-              <li class="nav-item mx-3">
-                <a class="nav-link color01 fs-2" href="#">Servicios</a>
-              </li>
-              <li class="nav-item mx-3">
-                <a class="nav-link color01 fs-2" href="#">Contáctenos</a>
-              </li>
-              <li class="nav-item mx-3">
-                <a class="nav-link color02 fs-2" href="#">Afíliate</a>
-              </li>
-              <li class="nav-item mx-3">
-                <a class="nav-link color01 fs-2" href="#">Salir</a>
-              </li>
-            </ul>
-          </div>
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">PIOLARDO</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Historial</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Cuenta</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Nosotros
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Servicios</a></li>
+            <li><a class="dropdown-item" href="#">Contactos</a></li>
+            <li><a class="dropdown-item" href="#">Afíliate</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
         </div>
       </nav>
       
