@@ -15,8 +15,11 @@ class VentasController {
     public function historial() {
         $this->render('menu/historial');
     }
-    public function reguistro() {
+    public function reguistroconductores() {
         $this->render('menu/reguistroConduc');
+    }
+    public function registro() {
+        $this->render('menu/reguistro');
     }
     
 

@@ -3,6 +3,7 @@
 include __DIR__ . '/../header.php';  // Includes header content
 ?>
 <!-- trabaja aqui -->
+ <div>xd</div>
 
 
 <?php
