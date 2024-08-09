@@ -23,17 +23,16 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $stmt->bind_param("s", $correo);
     $stmt->execute();
     $stmt->store_result();
-    $stmt->bind_result($id_admin, $hashed_password);
+    $stmt->bind_result($id_admin, $stored_password);
     $stmt->fetch();
 
     // Verificar la contraseña
-    echo $contrasena,  $hashed_password;
-    var_export($stmt);
-    if ($stmt->num_rows > 0 && password_verify($contrasena, $hashed_password)) {
+
+    if ($stmt->num_rows > 0 && $contrasena === $stored_password) {
         // Guardar el usuario en la sesión
         $_SESSION['id_admin'] = $id_admin;
         $_SESSION['correo'] = $correo;
-        header("Location: dashboard.php"); // Redirigir a la página de administración
+        header("Location: ../ventas/menu"); // Redirigir a la página de administración
         exit();
     } else {
         echo "Correo o contraseña incorrectos";

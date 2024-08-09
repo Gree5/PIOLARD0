@@ -1,9 +1,10 @@
 <?php
+/*
 session_start();
 if(!isset($_SESSION['id_user'])){
   header("Location: http://localhost/PIOLARD0");
   exit();
-}
+}*/
 ?>
 
 <!doctype html>
