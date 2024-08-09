@@ -1,12 +1,16 @@
 <?php
 // This is your main page file, e.g., index.php
-include 'Views\log.php';  // Includes header content
+include 'Views\taxi.php';  // Includes header content
 require_once 'conf\databsae.php';
 ?>
 
    <div class="d-flex">
       <div class="w-100">
+<<<<<<< HEAD
          <img src="assets\img\pixelcut-export(9).jpeg" class="img-fluid w-100" alt="">
+=======
+         <img src="assets\img\pixelcut-export (9).jpeg" class="img-fluid w-100" alt="">
+>>>>>>> c19650d0df69272a0631ef7115aae4baf0211b13
       </div>
       <div class="w-100 text-center" style="align-content: center;">
          <div style="font-size: 30px; font-weight: bold;" class="color01 my-4">
